@@ -41,7 +41,7 @@ CREATE TABLE `automoveis` (
 --
 
 INSERT INTO `automoveis` (`modelo`, `cor`, `ano`, `motor`, `transmissao`, `cambio`) VALUES
-('Chevrolet Onix AT Turbo', '2020', 0, '1.0 CCS Turbo', 'CVT', 'CVT automático de 6 marchas'),
+('Chevrolet Onix AT Turbo', '2020', 0, '1.0 CCS Turbo', 'CVT', 'CVT automático de 6 marchas'),/*Comentei errado a cor e o ano, porém refiz na utilma coluna/linha*/
 ('Toyota Yaris Sedan XL', 'prata', 2017, '1.5 Dual VVT-i', 'CVT', 'CVT com 7 marchas simuladas'),
 ('Hyundai HB20 Comfort 1.0 Turbo', 'preto', 2022, '1.0 Kappa TGDI', 'Automatizados', 'Automatizados'),
 ('Nissan Versa Sense', 'branco', 2017, '1.6 HR16', 'CVT', 'CVT com 7 marchas simuladas'),
@@ -51,7 +51,7 @@ INSERT INTO `automoveis` (`modelo`, `cor`, `ano`, `motor`, `transmissao`, `cambi
 ('Fiat Cronos Drive 1.3', 'prata brisk', 2015, '1.3 Firefly', 'CVT', ' CVT com 7 marchas simuladas'),
 ('Nissan GT-R', 'preto fosco', 2022, 'MOTOR GT-R NISMO', 'utomatizado com embreagem dupla e seis marchas.', 'utomatizado com embreagem dupla e seis marchas.'),
 ('mercedes c180', 'prata', 2019, '1.6 Turbo Flex de 156 cv e 25,5 kgfm', 'Automático', 'Automático de 9 marchas'),
-('Chevrolet Onix AT Turbo', 'prata', 2020, '1.0 CCS Turbo', 'automático', 'automático de 6 marchas');
+('Chevrolet Onix AT Turbo', 'prata', 2020, '1.0 CCS Turbo', 'automático', 'automático de 6 marchas');/*!!!*/
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
